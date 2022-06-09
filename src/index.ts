@@ -1,24 +1,30 @@
 import fs from 'fs';
-import { nodeModuleNameResolver } from 'typescript';
-import { fileURLToPath } from 'url';
-import xml2js, { Parser, convertableToString } from 'xml2js';
 import xml2json from 'xml2json';
 
-function mapper(xml : Buffer) {
-    const json : {} = xml2json.toJson(xml, { object: true });
+function mapper(data : Buffer, filename : string) {
+    const json : {} = xml2json.toJson(data, { object: true });
     console.dir(json, {depth : null, colors: true});
-    //save(json);
+
+    const stringifiedJson   = JSON.stringify(json);
+    const xml               = xml2json.toXml(stringifiedJson);
+    save(xml, filename);
 }
 
 function load(file : string) {
     console.log(__dirname);
     fs.readFile(file, (err, data) => {
-        mapper(data);
+        mapper(data, file);
     })
 }
 
-function save(json : string) {
-    const c = {} 
+function save(xml : string, filename : string) {
+    fs.writeFile('PARSED_' + filename, xml, {} , (err) => {
+        if (err) {
+          console.log("err");
+        } else {
+          console.log("Xml file successfully updated.");
+        }
+    });
 }
 
 load('test.xml')

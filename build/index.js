@@ -5,19 +5,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const xml2json_1 = __importDefault(require("xml2json"));
-function mapper(xml) {
-    const json = xml2json_1.default.toJson(xml, { object: true });
+function mapper(data, filename) {
+    const json = xml2json_1.default.toJson(data, { object: true });
     console.dir(json, { depth: null, colors: true });
-    //save(json);
+    const stringifiedJson = JSON.stringify(json);
+    const xml = xml2json_1.default.toXml(stringifiedJson);
+    save(xml, filename);
 }
 function load(file) {
     console.log(__dirname);
     fs_1.default.readFile(file, (err, data) => {
-        mapper(data);
+        mapper(data, file);
     });
 }
-function save(json) {
-    const c = {};
+function save(xml, filename) {
+    fs_1.default.writeFile('PARSED_' + filename, xml, {}, (err) => {
+        if (err) {
+            console.log("err");
+        }
+        else {
+            console.log("Xml file successfully updated.");
+        }
+    });
 }
 load('test.xml');
 // function mapper(xml : convertableToString) {
