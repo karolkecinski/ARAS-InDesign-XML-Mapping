@@ -1,12 +1,15 @@
 import fs from 'fs';
 import xml2json from 'xml2json';
+import xml2js from 'xml2js';
 
 function mapper(data : Buffer, filename : string) {
     const json : {} = xml2json.toJson(data, { object: true });
     console.dir(json, {depth : null, colors: true});
 
-    const stringifiedJson   = JSON.stringify(json);
-    const xml               = xml2json.toXml(stringifiedJson);
+    let builder     = new xml2js.Builder();
+    const xml       = builder.buildObject(json)
+    console.dir(xml, {depth : null, colors: true});
+
     save(xml, filename);
 }
 
@@ -28,22 +31,4 @@ function save(xml : string, filename : string) {
 }
 
 load('test.xml')
-
-// function mapper(xml : convertableToString) {
-//     const parser : Parser = new xml2js.Parser();
-//     const result = parser.parseString(xml, (err, result) => {
-//         console.dir(result)
-//         save(result)
-//     });
-// }
-
-// function load() {
-//     fs.readFile(__dirname + fileURLToPath, (err, data) => {
-//         mapper(data);
-//     })
-// }
-
-// function save(data) {
-
-// }
 

@@ -1,1 +1,19 @@
-<master><middle yes="1" yes="2" yes="3"></middle><middle yes="11" no="000"></middle><another b="YYY"><something a="XXX"></something></another><notmuch></notmuch></master>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<master>
+  <middle>
+    <yes>1</yes>
+    <yes>2</yes>
+    <yes>3</yes>
+  </middle>
+  <middle>
+    <yes>11</yes>
+    <no>000</no>
+  </middle>
+  <another>
+    <something>
+      <a>XXX</a>
+    </something>
+    <b>YYY</b>
+  </another>
+  <notmuch/>
+</master>

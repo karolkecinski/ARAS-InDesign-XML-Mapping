@@ -5,11 +5,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const xml2json_1 = __importDefault(require("xml2json"));
+const xml2js_1 = __importDefault(require("xml2js"));
 function mapper(data, filename) {
     const json = xml2json_1.default.toJson(data, { object: true });
     console.dir(json, { depth: null, colors: true });
+    let builder = new xml2js_1.default.Builder();
     const stringifiedJson = JSON.stringify(json);
-    const xml = xml2json_1.default.toXml(stringifiedJson);
+    const xml = builder.buildObject(json); //= xml2json.toXml(json);
+    console.dir(xml, { depth: null, colors: true });
     save(xml, filename);
 }
 function load(file) {
