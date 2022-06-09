@@ -1,0 +1,21 @@
+{
+  "name": "aras-indesing-xml-mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karol Kecinski",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.41",
+    "@types/npm": "^7.19.0",
+    "@types/xml2js": "^0.4.11",
+    "@types/xml2json": "^0.11.4",
+    "fs": "^0.0.1-security",
+    "typescript": "^4.7.3",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  }
+}

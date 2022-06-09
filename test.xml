@@ -1,0 +1,18 @@
+<master>
+    <middle>
+        <yes>1</yes>
+        <yes>2</yes>
+        <yes>3</yes>
+    </middle>
+    <middle>
+        <yes>11</yes>
+        <no>000</no>
+    </middle>
+    <another>
+        <something>
+            <a>XXX</a>
+        </something>
+        <b>YYY</b>
+    </another>
+    <notmuch></notmuch>
+</master>
