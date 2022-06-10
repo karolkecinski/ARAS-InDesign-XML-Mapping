@@ -69,25 +69,8 @@ function mapper(data : any, filename : string) {
         console.log(`${key}: ${value}`);
         console.dir(result, {depth : null, colors: true})
     });
+    
     return;
-    console.log(data);
-    let cnt = 0;
-    for (let tag in data) {
-        cnt += 1;
-        console.log(tag);
-        console.dir(data[tag], {depth : null, colors: true});
-        console.log(cnt);
-        switch(tag) {
-            case 'TechnicalDocumentation': {
-                break;
-            }
-
-            default: {
-                console.log(`%cERROR: Unexpected tag: "${tag}"`);
-                return;
-            }
-        }
-    }
 
     save(data, filename);
 }

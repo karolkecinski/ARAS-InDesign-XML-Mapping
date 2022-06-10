@@ -80,6 +80,38 @@ class Composer {
                 });
             }
         });
+        return result;
+    }
+
+    composeBenefits(data : any) {
+        let result : Array<any> = []
+        //Benefits
+        Object.entries(data as object).forEach( ([key, value]) => {
+            let entry : any = {}
+            if(key == 'Benefit') {
+                Object.entries(value as object).forEach( ([key, value]) => {
+                    switch(key) {
+                        case 'Title': {
+                            entry['content-headline'] = value;
+                            break;
+                        }
+                        case 'Legend': {
+                            entry['content-text'] = value;
+                            break;
+                        }
+
+                        default: {
+                            console.log(`# ERROR Unexpected tag: "${key}"\n# in: TechnicalDocumentation: 
+                                \n#\t Benefits
+                                \n#\t\t Benefit
+                                `);
+                            break;
+                        }
+                    }
+                });
+            }
+            result.push(entry);
+        });
 
         return result;
     }
