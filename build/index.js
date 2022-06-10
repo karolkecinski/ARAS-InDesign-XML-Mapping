@@ -14,6 +14,9 @@ function mapper(data, filename) {
         switch (key) {
             case 'TechnicalDocumentation': {
                 result['root'] = {};
+                let components = [];
+                let accessories = [];
+                let related = [];
                 Object.entries(value).forEach(([key, value]) => {
                     switch (key) {
                         case 'Header': {
@@ -21,36 +24,44 @@ function mapper(data, filename) {
                             break;
                         }
                         case 'MarketingInformations': {
-                            result['root']['grouped_title-image-legend'] = CMP.composeMarketingInformations(value);
+                            result['root']['grouped_title-image-legend']['title-image-legend'] = CMP.composeMarketingInformations(value);
                             break;
                         }
                         case 'Benefits': {
-                            result['root']['grouped_benefit'] = CMP.composeBenefits(value);
+                            result['root']['grouped_benefit']['benefit'] = CMP.composeBenefits(value);
                             break;
                         }
                         case 'Awards': {
-                            result['root'][''];
+                            //TODO: Unknown tag
                             break;
                         }
                         case 'SystemComponents': {
+                            components = CMP.composeProducts(value);
                             break;
                         }
                         case 'Accessories': {
+                            accessories = CMP.composeProducts(value);
                             break;
                         }
                         case 'RelatedProducts': {
+                            //TODO: Make sure that RelatedProducts in ARAS XML should be Products in InDesigh XML!!!!
+                            related = CMP.composeProducts(value);
                             break;
                         }
                         case 'TechnicalData': {
+                            result['root']['technical-data']['table-data'] = CMP.composeTechnicalData(value);
                             break;
                         }
                         case 'OrderingInformations': {
+                            result['root']['ordering-information']['table-data'] = CMP.composeOrderingInformations(value);
                             break;
                         }
                         case 'Notes': {
+                            //TODO: Notes not included in the InDesign XML file? 
                             break;
                         }
-                        case 'Footer': {
+                        case 'Backpage': {
+                            //TODO: Footer
                             break;
                         }
                         default: {
@@ -58,8 +69,9 @@ function mapper(data, filename) {
                             return;
                         }
                     }
-                    console.log(`${key}: ${typeof value}`);
+                    //console.log(`${key}: ${typeof value}`);
                 });
+                result['root']['grouped_product']['product'] = components.concat(accessories.concat(related));
                 break;
             }
             default: {
@@ -67,10 +79,9 @@ function mapper(data, filename) {
                 return;
             }
         }
-        console.log(`${key}: ${value}`);
-        console.dir(result, { depth: null, colors: true });
+        //console.dir(result, {depth : null, colors: true})
     });
-    return;
+    //return;
     save(data, filename);
 }
 function load(file) {
@@ -95,5 +106,5 @@ function save(json, filename) {
         }
     });
 }
-load('test.xml');
-//load('HPS7000.xml')
+//load('test.xml')
+load('HPS7000.xml');

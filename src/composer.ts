@@ -155,18 +155,54 @@ class Composer {
         //TechnicalData
         Object.entries(data as object).forEach( ([key, value]) => {
             let entry : any = {}
+            //TODO: What about Variants?
             if(key == 'TechnicalDataElement') {
                 Object.entries(value as object).forEach( ([key, value]) => {
                     switch(key) {
                         case 'Table': {
+                            //TODO: Should we parse the table somehow?
                             entry['content-text'] = value;
                             break;
                         }
+                        case 'Title':
+                            break;
 
                         default: {
                             console.log(`# ERROR Unexpected tag: "${key}"\n# in: TechnicalDocumentation: 
-                                \n#\t SystemComponents or Accesories or RelatedProducts
-                                \n#\t\t SystemComponent or Accessory or RelatedProduct
+                                \n#\t TechnicalData
+                                \n#\t\t TechnicalDataElement
+                                `);
+                            break;
+                        }
+                    }
+                });
+                result.push(entry);
+            }
+        });
+        return result;
+    }
+
+    composeOrderingInformations(data : any) {
+        let result : Array<any> = [];
+        //OrderingInformations
+        Object.entries(data as object).forEach( ([key, value]) => {
+            let entry : any = {}
+            if(key == 'OrderingInformation') {
+                //OrderingInformation
+                Object.entries(value as object).forEach( ([key, value]) => {
+                    switch(key) {
+                        case 'Table': {
+                            //TODO: Should we parse the table somehow?
+                            entry['content-text'] = value;
+                            break;
+                        }
+                        case 'Title':
+                            break;
+
+                        default: {
+                            console.log(`# ERROR Unexpected tag: "${key}"\n# in: TechnicalDocumentation: 
+                                \n#\t OrderingInformations
+                                \n#\t\t OrderingInformation
                                 `);
                             break;
                         }

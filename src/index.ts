@@ -15,7 +15,7 @@ function mapper(data : any, filename : string) {
                 let components : Array<any> = [];
                 let accessories : Array<any> = [];
                 let related : Array<any> = [];
-                
+
                 Object.entries(value as object).forEach( ([key, value]) => {
                     switch(key) {
                         case 'Header': {
@@ -52,12 +52,15 @@ function mapper(data : any, filename : string) {
                             break;
                         }
                         case 'OrderingInformations': {
+                            result['root']['ordering-information']['table-data'] = CMP.composeOrderingInformations(value);
                             break;
                         }
                         case 'Notes': {
+                            //TODO: Notes not included in the InDesign XML file? 
                             break;
                         }
-                        case 'Footer': {
+                        case 'Backpage': {
+                            //TODO: Footer
                             break;
                         }
 
@@ -77,11 +80,10 @@ function mapper(data : any, filename : string) {
                 return;
             }
         }
-        console.log(`${key}: ${value}`);
-        console.dir(result, {depth : null, colors: true})
+        //console.dir(result, {depth : null, colors: true})
     });
 
-    return;
+    //return;
 
     save(data, filename);
 }
@@ -110,6 +112,6 @@ function save(json : {}, filename : string) {
     });
 }
 
-load('test.xml')
-//load('HPS7000.xml')
+//load('test.xml')
+load('HPS7000.xml')
 
