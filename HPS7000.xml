@@ -1,0 +1,837 @@
+<TechnicalDocumentation aras:id="b48013e5cc2246ea82d9d977fd850555" xmlns="http://www.aras.com/TechDocExample"
+    xmlns:aras="http://aras.com/ArasTechDoc">
+    <Header aras:id="65517f8433a047c2aba3f2ae9fdfc1cd">
+        <Title aras:id="B1CE227924594BE08EE7DC4E78BCA2FD">Dräger HPS® 7000</Title>
+        <Subtitle aras:id="74A447137D8B46DB85DA592B89DC38B0">Head Protection</Subtitle>
+        <Legend aras:id="4AFE09DB6A5845FE8B037DFA9F870119">The multipurpose Dräger HPS® 7000 firefighter’s helmet is in
+            a class of its own, thanks to its innovative, sporty and dynamic design, ergonomic fit and components which
+            make it a multifunctional system solution. It provides optimum protection during every operation.</Legend>
+    </Header>
+    <MarketingInformations aras:id="91f2f3292f134c95ab95f9d7e3f16fc9">
+        <Title aras:id="93E29F4D835C4568872C70387F574765">Dräger HPS® 7000</Title>
+        <MarketingInformation aras:id="cfb929a388484eacbce2693875273816">
+            <Graphic ref-id="5a72e656d113465cbeed4b983248a894" aras:id="47f03539127a4a659b109192e143f877"
+                imageId="74E8D6E711904FD49B69B7350C99E805" />
+            <MarketingInformationContent aras:id="95dd9847957645ee826b44f21df56775"
+                innerId="C59AEAB832154654920C1B5CABECD3F4">
+                <Title aras:id="1DBAEEA8B16C45C981CE44278C9F6D99">HPS® 7000 helmet lamp (optional)</Title>
+                <Legend aras:id="7E9D7125289543B783D993D4B86561BF">Integrated 3W high-performance lamp with LED
+                    technology</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="8dc3ba8a3c1b401fa56180c90cac5e31"
+                innerId="B12EAD8174E14325BFC6763C3E71FBEE">
+                <Title aras:id="1B423C2D40C644D38026FEA6542525B0">Front plate</Title>
+                <Legend aras:id="2458E4DB7A024E6685E35B7660A05B6F">Matt black or helmet colour, with or without
+                    relective foil and marking</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="553e8a67bc4b44f18a5eca88d6a6eb5d"
+                innerId="93F7DC291FE24C27B66F3488E7C2A99E">
+                <Title aras:id="FFBABBBAE8D244078A3F28B625F58271">Adapter for communication Systems</Title>
+                <Legend aras:id="3EE1D31FE06B4DEA827F88EC3DD64F5D">To connect various communication systems</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="ee4a9d16170449e5957c962fc41263d2"
+                innerId="EBADDDC5BEF948DFB37C13937A5627DD">
+                <Title aras:id="9FD1C12F713248FA88F3E7EC54CB7130">Lamp holder (optional)</Title>
+                <Legend aras:id="FFFE3417101A4C9A8DB9D1BBBD686540">To attach an external lamp, on the right/left
+                </Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="a40cd296973949cbbaa4ea3a8455d246"
+                innerId="2BC5299A2D014B098469A00A73AA39FE">
+                <Title aras:id="7E92454716154C178E77D46D1676B6B7">Helmet shell</Title>
+                <Legend aras:id="90AD5BCB602F4E35890FB3696BE3D49D">Made of high-temperatureresistant composite material
+                </Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="1c7dd265a2c14a7991bbbb99ba56c0f3"
+                innerId="745A01D16A774F2FB49D3866B9CB7883">
+                <Title aras:id="99520C3CBE134F9984C86DFB138ABE4B">Internal itting</Title>
+                <Legend aras:id="89BB433348BE4DC28479C7AD9A921815">Skin-friendly materials, washable</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="9eda36a8ea7545e7871998a9bfae059c"
+                innerId="31D5511A6C9B466491DE70F834B9D0A1">
+                <Title aras:id="2BEF675E9B5A45308E4C065D493630B8">Harness</Title>
+                <Legend aras:id="E8522DD330E642F68C8DDF95777C9987">Adjustable chin and neck straps with Nomex® padding
+                </Legend>
+            </MarketingInformationContent>
+        </MarketingInformation>
+        <MarketingInformation aras:id="e125cd37564f410a86f71a0bcc579df7">
+            <Graphic ref-id="156e52b7a34f4facac3f4ad1f8e4b9f0" aras:id="e8bc37c7cb514493b0ad00ece7385d37"
+                imageId="1E625FE27F394D78A3982852AA4D98CD" />
+            <MarketingInformationContent aras:id="4db6aadcd3a246ba9f74d5ef3be43a98"
+                innerId="79FCE2FE3A3942348989C4F4B41E2521">
+                <Title aras:id="DE5D9C1C22BB4C6B8D6A0F95773E4FDF">Facial protection visor</Title>
+                <Legend aras:id="8F00EB6706AF4D67822070818FEEEBC6">Integrated, clear, clear with anti-scratch/ anti-fog
+                    coating or gold-coated as options</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="06a78cec548340d7b3f982b6f2399a04"
+                innerId="1F05A986F5E641A08AEC3A85FF51BFC0">
+                <Title aras:id="887333E412E54B888D0206393B362841">Eye protection visor</Title>
+                <Legend aras:id="7E13757E21264B968357978F36E5A47D">Integrated, clear, clear with anti-scratch coating or
+                    tinted as options (only for PRO versions)</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="31e53fa1adaf4b0d8b0ab7269dca7ec8"
+                innerId="FFC435B1A46C4439B0654B95A697482B">
+                <Title aras:id="8CBB1BFC54754F0883E26B2DA2F8AF12">Mask-helmet connection</Title>
+                <Legend aras:id="D9C41CD7BD3D46808A5376020090C999">Adjustable, universal mask receptacle (only for
+                    Standard and PRO versions)</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="b1a71282bb754904b76026fd37bdb281"
+                innerId="E36D7534A3ED4F9F888B86888E3D7E38">
+                <Title aras:id="00CF0E6233B2473284118BA3E5AA153C">Eye-protection lever</Title>
+                <Legend aras:id="F0F819B66AA345AB82095201FB5A052D">Operation of the eye-protection visor on both sides
+                    (only for PRO versions)</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="7bab83c6b9c94a04b0c59fbc8a0e79e8"
+                innerId="39D44A028EC44A6991A2FE94ABC4F436">
+                <Title aras:id="68672E29E2C04D6882C6924106902D25">Relective stripes (optional)</Title>
+                <Legend aras:id="701F0BA3F5D04CD3859BAF0947102A89">Made of flameproof material</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="996a79dc97674d64b4a488ce6d95ed27"
+                innerId="8CFBD9233EDF4B27AE4D2603BC398391">
+                <Title aras:id="0E068FBE821B476180B2A44D3D9E117E">Adjustment wheel</Title>
+                <Legend aras:id="08D5632808C0484787CE11046ADBE59B">Adjustable head size from the outside</Legend>
+            </MarketingInformationContent>
+            <MarketingInformationContent aras:id="2dee3d28e8ad4d9399936be3ba4d1e21"
+                innerId="723F97928EA549F99A19752DAD2E5A73">
+                <Title aras:id="93FFE0CEF6DB42F48392A802A796E06F">Neck-protection holder</Title>
+                <Legend aras:id="A5387761C5314AD483640FA1CAFFC1BE">Attach various neck protections via snap system
+                </Legend>
+            </MarketingInformationContent>
+        </MarketingInformation>
+        <MarketingInformation aras:id="7c9cefa625224655bde28ea65b5abbed">
+            <Graphic ref-id="9b0a4d7e38604e419cc060467dbc277f" aras:id="481bd2cf1d004ee58fc82e0cd293d8fb"
+                imageId="3AAF10E9B78F4800893D1E490AB914A1" />
+        </MarketingInformation>
+        <MarketingInformation aras:id="faa63a24269240008115a1cc80cac05a">
+            <Graphic ref-id="6885595bd4c942bda592a5b3dff9af5c" aras:id="9c380a39434049b5858a3931620363df"
+                imageId="AC9F99EF500D4B6CA1E7728F9084982B" />
+        </MarketingInformation>
+    </MarketingInformations>
+    <Benefits aras:id="8d465febe4b34d39be0e6ab9739dea5f">
+        <Title aras:id="A95AD10001A1496A8A8FF070918C814E">Benefits</Title>
+        <Benefit aras:id="e7e9c035084546f99d011df117115e38" innerId="199E089FF71D4E9AAA06973D7BA997AE">
+            <Title aras:id="7FD498534C774EEF84A9C180100846E9">Firefighting helmet with tailor-made fit for every head
+            </Title>
+            <Legend aras:id="6A0E1A79CCEF4D6786BEF4449533AC4F">To meet this requirement, Dräger developed the HPS® 7000
+                firefighting helmet in close cooperation with customers worldwide. Two helmet shells for head sizes from
+                50 to 66 cm cover a wide range of individual head and face shapes. With a weight of approx. 1,380 g in
+                the basic version, it is one of the lightest helmets in its class. In addition to its comfortable
+                interior fitting made of skin-friendly, anti-allergic and flexible materials, the Dräger HPS 7000 stands
+                out with its high level of operating and wearing comfort</Legend>
+        </Benefit>
+        <Benefit aras:id="ce86175c53534173aee2a7b17afee333" innerId="1DCD6829A7764E9994AC24D8600247B5">
+            <Title aras:id="C00ACD8002CD42EC8273CEC3721EE36E">Comfort is a matter of position</Title>
+            <Legend aras:id="0DD2123CC3EF47298601A0DB766B93D6">The padded 4-point harness allows for safe and easy
+                adjustment to any head shape. The optimum balance of the firefighting helmet can be adjusted
+                individually in the neck and chin area. The padding made of Nomex® also ensures a comfortable fit. The
+                integrated comfort hairnet enables the height to be adjusted and assures a good climate inside the
+                helmet. During operation, the head size can be adjusted quickly via an easy-to-operate sizeadjustment
+                wheel with a safety mechanism on the outer shell, even with wet and thick gloves. Nomex® is a registered
+                trademark of the company DuPont.</Legend>
+        </Benefit>
+        <Benefit aras:id="ee1c4eaaca7a4759b7a7bddbd3c12aa9" innerId="BE00BB9385EE45DC9E42389B968FE26E">
+            <Title aras:id="D3CB7155CA5F457987AE0BCC504E3F69">Design at its strongest</Title>
+            <Legend aras:id="31A7D6310BDE47C28355199338241C8C">The ergonomic firefighting helmet design evenly
+                distributes the weight to the head and relieves the neck muscles. The large and modern facial protection
+                visor offers unrestricted protection with best visibility. For operations under chemical protective
+                suits, the visor can be fixed permanently. A safe alternative is provided by the integrated and
+                individually adjustable eye protection visor with an integrated soft-pad edge protection. Both visors
+                leave enough space for the simultaneous use of corrective glasses or respiratory masks. A firefighter’s
+                helmet is more than a mere piece of equipment – it serves as a personal distinguishing feature.
+                Therefore, you can configure the helmet according to your wishes: select from a variety of colours and
+                also pick an individual emblem for your front plate.</Legend>
+        </Benefit>
+        <Benefit aras:id="dd4a1a53114443d29b544b50bfaf7d2b" innerId="E63735BDF19D44C5AF756087C20D0050">
+            <Title aras:id="FBE7269E69A54F478C83A7022D234560">Innovative system design</Title>
+            <Legend aras:id="6953057B69E845F68D6004CFCC822459">As a provider of integrated system solutions, Dräger sets
+                new standards for the interaction of its products. The universally and individually adjustable mask
+                connection system of the Dräger HPS 7000 creates a strong and safe helmet-mask combination. The
+                full-face mask Dräger FPS 7000 especially as mask-helmetcombination, the Dräger HPS-COM helmet
+                communication system and the SCBA of the PSS series allow you to optimally configure the overall system.
+                The lightweight LED helmet lamp is integrated into the helmet shell and illuminates the whole working
+                area. It is located in the centre of the front plate and has an effective glare shield as well as an
+                intelligent battery management system. The interior fitting can be equipped with various audio/speech
+                headsets for different radios. This ensures reliable communication even in loud environments.</Legend>
+        </Benefit>
+        <Benefit aras:id="31e5dc708c8e4c9f9ca8c576bdf41981" innerId="62228DE596A34A8C8A5A24C80FEC320F">
+            <Title aras:id="F63CC18C0116457F8FD46121FF9B624F">Highest safety – the material mix makes the difference
+            </Title>
+            <Legend aras:id="312364C547C74D7C83BBF180BD430101">Despite its low weight, our multipurpose firefighting
+                helmet Dräger HPS 7000 is one of the safest full-shell helmets in its class. Its outer shell of
+                composite material in combination with the PUR inner shell provides reliable protection against thermal
+                and mechanical influences. The plastic reinforced with fibreglass and aramid webbing resists extreme
+                temperatures. It is even able to withstand the enormous radiation caused by the heat and flame
+                engulfment of a flash over. The visors, made of high-temperature-resistant polyether sulphone, reliably
+                protect your eyes and face against high heat, particles and liquid chemicals.</Legend>
+        </Benefit>
+        <Benefit aras:id="499b1642545a483db585745e8436735d" innerId="17189841024A4DD88F58B9FE9F9278B2">
+            <Title aras:id="3AB7ED40FCE74D3C82F5274048BCC7E2">Nothing left to be desired</Title>
+            <Legend aras:id="017EBA94C5014B1380A9C06CBE7755A4">A comprehensive accessory programme completes the Dräger
+                package. Reflective stripes improve your visibility under unfavourable conditions and allow for
+                individual marking. Matched to your clothing, the various neck-protection versions reliably keep your
+                back free. Separate helmet lamps are attached with a lamp adapter on the right or left helmet side. A
+                Nomex® fabric protects your firefighting helmet in any training situation and extends its service life.
+                Helmet bags and cases provide safe storage and transport.</Legend>
+        </Benefit>
+        <Benefit aras:id="512262e634d546bbae0aff4d1010212a" innerId="93C5F66B5A774B438E535D51F0D71BC2">
+            <Title aras:id="15F04314341C48668A86034D72C446E3">Ready again in no time at all</Title>
+            <Legend aras:id="E030C1013C444C1E80A8D4D8D2F10C26">The Dräger HPS 7000 firefighting helmet is easy and
+                efficient to service, thanks to the minimum number of components. The entire interior fitting can be
+                removed and reinstalled in just a few steps. You can replace individual components easily and quickly
+                using standard tools. All helmet components are cleaned and disinfected manually or in an industrial
+                washing machine.</Legend>
+        </Benefit>
+    </Benefits>
+    <Awards aras:id="6fa6cc4c68de443dbd3b7b438ae9a11a">
+        <Title aras:id="615BBE91B9D94E5380A561A58154766F">Awards</Title>
+        <Graphic ref-id="080ab228181540ac848d6f61dce33047" aras:id="c846c14989e94c8e9a5e620811a229fc"
+            imageId="AA93737F46AD433880C8DE16CC04A493" />
+        <Graphic ref-id="f9e70334edfe4046a4b49e40905cdf7c" aras:id="e405bcd82cc847d199a9297bde36c203"
+            imageId="7CA763B7FCE54CEE9410FE278973DCF4" />
+        <Graphic ref-id="8d785241eabf4f67b72efa1daedc8467" aras:id="1beaafd0bd1548c298a79ca70d67e741"
+            imageId="28DD7C5EC9304683B8C00991863F76E1" />
+    </Awards>
+    <SystemComponents aras:id="5b377a0daf0247d4a099610a97463663">
+        <Title aras:id="126A3E103C6347BB83B4EAA9073174D7">System Components</Title>
+        <SystemComponent aras:id="a77484aa76d5408cbd68f5a608085ad0" innerId="47C6D386C4604B1DAC9834BFEFC23351">
+            <ProductNumber aras:id="2E4CCF4DBBA54B8281A79EDE649A2664">D-13666-2010</ProductNumber>
+            <Graphic ref-id="055dd1bd08724cbbb20068773e402cb9" aras:id="cd4fa88c812f41848679f6d5a91cd406"
+                imageId="629B9503C2524EFA986EF65FBC7DAEDF" />
+            <Title aras:id="739B19F1329643C9869D86CE5887AB0C">Dräger FPS® 7000</Title>
+            <Legend aras:id="BC7C47244E7043B88693711106BB27F8">The Dräger FPS® 7000 full-face mask series ensures high
+                safety and wearing comfort. The modern design offers a large, optimised field of vision, while the
+                availability of different sizes ensures the mask fits comfortably and securely. The full-face mask is
+                available with different connections and wearing systems.</Legend>
+        </SystemComponent>
+        <SystemComponent aras:id="2b180146cfd843bfbe114fe31dc7f7f3" innerId="07EEE299B9CA4152806F65E9627A6946">
+            <ProductNumber aras:id="1B1AD7051A2646078AF902D097F637A6">D-8549-2019</ProductNumber>
+            <Graphic ref-id="0e9f9f1366b34060a00204a333922380" aras:id="e753397ec77240bcb47087f977d8f8bc"
+                imageId="6A32C7D52CD14819ACEABECD4B559827" />
+            <Title aras:id="753201110FD545FA83527CB5FEDB0FDE">Dräger HPS®-COM</Title>
+            <Legend aras:id="8E09B14C7D2C46A28C25E489DF282410">The Dräger HPS®-COM is a robust, easy-to-install
+                communication unit for firefighting helmets. Thanks to the latest technology, it delivers excellent
+                audio performance. You can choose between two different base units and four microphone options, suitable
+                for a wide range of application scenarios.</Legend>
+        </SystemComponent>
+    </SystemComponents>
+    <Accessories aras:id="3a8185ddbde6462c95430a99ab900625">
+        <Title aras:id="879CBA0390DE410E88D1BE2F019E0339">Accessories</Title>
+        <Accessory aras:id="fd96eff3e02f4f76872acc5ff2eb737e" innerId="8205EFBF2DF8469E8225A3C62FB64540">
+            <ProductNumber aras:id="DE67D32882C541E387287B0A7E3BEF2E">D-56197-2012</ProductNumber>
+            <Graphic ref-id="6214ba01e8ae41a2891b0e0efc10b794" aras:id="06c99cffa161443399ae52c651654cd7"
+                imageId="03AB2B2890174C20B48C47C8734EB47B" />
+            <Title aras:id="FD6CF3D4E5FD460F8F8B91C51EC0597D">Facial protection visor PESU for Dräger HPS® 7000</Title>
+            <Legend aras:id="6B4CB2920D1A4BDF8BCC07B5CEDD2F91">The integrated, large and ergonomic facial protection
+                visor made of polyethersulfone protects you safely from extreme heat, particles and liquid chemicals. It
+                also offers the best visibility. It is made to fit a wide range of individual face sizes and shapes,
+                including the wearing of corrective spectacles. The visor is available in different versions: clear,
+                clear/anti-scratch coating, gold-plated (protection against heat radiation) or anti-fog coating.
+            </Legend>
+        </Accessory>
+        <Accessory aras:id="adbb31c46dbb42959837de4b7420d93c" innerId="703541656C934C98A736F0718DF526DF">
+            <ProductNumber aras:id="2C918D69A49B49CF8D6A6CAB2F9F4819">D-56198-2012</ProductNumber>
+            <Graphic ref-id="b88a58002e324877b6a767bdb41a9256" aras:id="47e91cbb9417490ebfff8e1102fb98ef"
+                imageId="FA9C649F25914FA49C5DAC0A9C397702" />
+            <Title aras:id="CBC338FFB9F44CF081733A7C31B07297">Eye protection visor for Dräger HPS® 7000</Title>
+            <Legend aras:id="10C44B5D1298453B80B15B011C9F1982">The eye protection visor is operated from the outside by
+                two levers (suitable for both left- and right-handed use) and have a 2-position setting for adjustment
+                to individual face sizes and shapes including the use of corrective spectacles. The integrated soft-pad
+                edge protection ensures a comfortable fit. The eye protection visor is available in different versions:
+                clear, clear/anti-scratch coating and tinted exclusively for the Dräger HPS® 7000 PRO.</Legend>
+        </Accessory>
+        <Accessory aras:id="31370beec5df4042b630a5e44d491fb7" innerId="3E1D8695BDFB4F7A892AD4BA10CFF8E7">
+            <ProductNumber aras:id="0BAB743D2EE84895813290C9C92A1F48">D-46870-2015</ProductNumber>
+            <Graphic ref-id="7e182af700f04374ae8e278b3958cae0" aras:id="95b380937e58462292933af50dd7ab7b"
+                imageId="F8C51496E0864E4B87A156B111A26EC5" />
+            <Title aras:id="F6DB870183384FE18F01B42C7DCF2B8D">Neck protection for Dräger HPS® 7000</Title>
+            <Legend aras:id="580F662323F14DFA8B86E6B290FE28E7">The neck protection can be quickly and securely attached
+                via a plug-in system with four snap fasteners. Several designs are available: ‒ Short, close-fitting
+                aramid version with integrated fold ‒ Alu-aramid version in different lengths ‒ Dutch version made of a
+                3-layer, high-quality aramid fabric, resistant to many acids and alkalis</Legend>
+        </Accessory>
+        <Accessory aras:id="66e17ea69dc840fca02721a9c854f471" innerId="4D31172DEE6643BAB334A08D7027BDBC">
+            <ProductNumber aras:id="3D2FF9AD394946258D7A33AA83C2ACC0">D-56209-2012</ProductNumber>
+            <Graphic ref-id="02b29c969fc74236bf9f30c462913b07" aras:id="f39a6d79bfaf4dd6805d9e753dfb6475"
+                imageId="3725999CD85B477B8925A91AA1C3FD7B" />
+            <Title aras:id="F69F110811D4431D8E2D5904F8BF759D">Helmet lamp LED for Dräger HPS® 7000</Title>
+            <Legend aras:id="DF1C1E9E965E4FBD8611B19EF27B89D2">The light-weight LED helmet lamp is integrated into the
+                helmet shell and illuminates the whole working area. It is located in the centre of the front plate and
+                has an effective glare shield. ‒ The 3W high-performance LED has four modes and three lighting levels
+                (bright, dimmed, flashing light, off). ‒ A function and battery test is integrated and the battery
+                status is displayed during use.</Legend>
+        </Accessory>
+        <Accessory aras:id="1668c0875c7c41c795402efc027b50a0" innerId="B28FBE61661C4AB18EB6A857F194B3D2">
+            <ProductNumber aras:id="9E85574C92DB4F0889B6A2638BCC7966">D-1131-2010</ProductNumber>
+            <Graphic ref-id="f0f4015189b94c23af59b0374c5ac188" aras:id="59d128622f3c403dbd2b85e72a3f5c20"
+                imageId="BCF3FC15A64B4225BF28AA0C6A3CD21F" />
+            <Title aras:id="A2F13B03EBE84D4B8988F0FD4969CAFA">Standard helmet lamps Dräger PX1, PX1 SHORTY and PX2
+            </Title>
+            <Legend aras:id="0209B31839AE447A8E4BF93AB1081581">These optional explosion-proof helmet lamps with LED
+                technology provide optimal illumination of your extended working area. They can be attached to the
+                right- and/or left-hand side of the helmet using a separate lamp adapter and run on commercially
+                available AA batteries. Different lamp adapters are available for other standard helmet lamps</Legend>
+        </Accessory>
+    </Accessories>
+    <RelatedProducts aras:id="dd91ab3d662946d9a42f7c1a497e5770">
+        <Title aras:id="A97FE726BA4443768AEE18B12CCB5557">Related Products</Title>
+        <RelatedProduct aras:id="24af9bfbd38f479eaac7aca210efd46c" innerId="441AD089A7CB4501A3548367EF61A52E">
+            <ProductNumber aras:id="78D9B5E8F4D240188445515C917740B3">D-28816-2015</ProductNumber>
+            <Graphic ref-id="92fc811887904381a99d7154c4258fc8" aras:id="5e272bb72eae4cdf90ff55344860f60e"
+                imageId="9B515DAC2B3842D2A4DD416EF692A2C2" />
+            <Title aras:id="8D38C827D28143DF823D1064AFC231EE">Dräger HPS® 3500</Title>
+            <Legend aras:id="0DFF900B87AB45A68FFA5D2325CC468E">The Dräger HPS® 3500 – a multifunctional and universal
+                helmet for the diverse requirements of rescue teams during search and rescue, forest and bush fire
+                fighting, traffic accidents, rescue from heights, water rescue and any kind of technical assistance.
+            </Legend>
+        </RelatedProduct>
+        <RelatedProduct aras:id="8c720ace98c6482581498530302c6726" innerId="CE318606E6464FA1847D6846B1785E7F">
+            <ProductNumber aras:id="568F854C74F24D12832C37A548C12D2F">D-28836-2015</ProductNumber>
+            <Graphic ref-id="8e428cb0ead440c383f3754494e4b900" aras:id="dbac24f88cbb4654a0403bc6a3569e63"
+                imageId="2B3EAB4B6EC9461296C3995445307FEC" />
+            <Title aras:id="A2D29902806245008FE9746C61D46A7E">Dräger HPS® 4500</Title>
+            <Legend aras:id="CA7F4B4DA9F04D0B8D170A03D75DD48F">The Dräger HPS® 4500 is a traditional half-shell helmet
+                with a modern design. Its robust outer shell provides you with excellent protection against impact and
+                extreme heat. With a modern visor design, the helmet has superior wearer comfort due to ergonomic and
+                lightweight internal components. A comprehensive range of accessories make our solution a truly
+                versatile helmet across a variety of applications.</Legend>
+        </RelatedProduct>
+    </RelatedProducts>
+    <TechnicalData aras:id="21f066cd5a33450688d5eb7501f1432c">
+        <Title aras:id="DB2DE5CAAB464B9B855CC94DFA73507E">Technical Data</Title>
+        <TechnicalDataElement aras:id="4d69efdd87b04515a1e5b71904693db9" innerId="4F2469B96D804596BABC61AA6DEAEE7D">
+            <Title aras:id="DDB626F72379461F882ACD95173C8ADC">Dräger HPS® 7000</Title>
+            <Table aras:id="014c6003cab440c99e89571ac697efd2"
+                MergeMatrix="{&quot;25fafd36542e4dd592c2e3d2cd2d66ba&quot;:[&quot;0&quot;,&quot;1&quot;],&quot;79c603bdf62d4cc7a52fd301f9d8e397&quot;:[&quot;100&quot;,&quot;101&quot;],&quot;4e8e1b903a97496eab7e2c99cf6c7581&quot;:[&quot;200&quot;,&quot;201&quot;],&quot;08f561326ef74e85910bfdf3365618f6&quot;:[&quot;300&quot;,&quot;301&quot;],&quot;8ef1b78f8aa148ef936839561b4a3771&quot;:[&quot;400&quot;,&quot;401&quot;],&quot;6b9eebf6f4c24590881880d05082967f&quot;:[&quot;500&quot;,&quot;501&quot;],&quot;20780ee243934e758b0c294d23ad450a&quot;:[&quot;600&quot;,&quot;601&quot;],&quot;6053236db3b54cc295eec610a94e01cf&quot;:[&quot;700&quot;,&quot;701&quot;],&quot;c5daae17786d4f7aba833fab131f23ce&quot;:[&quot;800&quot;,&quot;801&quot;],&quot;length&quot;:9,&quot;count&quot;:2,&quot;array&quot;:[&quot;25fafd36542e4dd592c2e3d2cd2d66ba&quot;,&quot;79c603bdf62d4cc7a52fd301f9d8e397&quot;,&quot;4e8e1b903a97496eab7e2c99cf6c7581&quot;,&quot;08f561326ef74e85910bfdf3365618f6&quot;,&quot;8ef1b78f8aa148ef936839561b4a3771&quot;,&quot;6b9eebf6f4c24590881880d05082967f&quot;,&quot;20780ee243934e758b0c294d23ad450a&quot;,&quot;6053236db3b54cc295eec610a94e01cf&quot;,&quot;c5daae17786d4f7aba833fab131f23ce&quot;]}"
+                ColWidth="50|50">
+                <Row aras:id="25fafd36542e4dd592c2e3d2cd2d66ba" innerId="8483542F810C4BDE9F7996E35D967184">
+                    <Entry aras:id="0efb9fe958ba452f899ded3c83ce2207">
+                        <Legend aras:id="64EABE11DDDC4941826E4A7503038878">Size</Legend>
+                    </Entry>
+                    <Entry aras:id="603f1b5726e84513b6c3d967d0a1ee08">
+                        <Legend aras:id="3D79E2A77DB649258BC3E08602D5D0BC">Two helmet shell sizes,H1: for head size 52
+                            to 62 and optional for 50/51(when using a separate padding strip),H2: for head size 56 to
+                            64/66,continuously adjustable via adjustment wheel</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="79c603bdf62d4cc7a52fd301f9d8e397" innerId="BD0E021ECE5F4F2AA6ED9B57D37ED186">
+                    <Entry aras:id="961acb6a45a2471b8a2bdd9e785260fe">
+                        <Legend aras:id="D01FFB2CADB64424854FB7D9827BC6EA">Weight</Legend>
+                    </Entry>
+                    <Entry aras:id="6309b7e2937943bca68baf022f5a0bd2">
+                        <Legend aras:id="682781FC71864AB28A6BF5BB3C558986">HPS® 7000 Basic-H1: ca. 1,380 g (±5 %)
+                            HPS® 7000 Basic-H2: 1,680 g (±5 %)
+                            HPS® 7000 Standard-H1: ca. 1,480 g (±5 %)
+                            HPS® 7000 Standard-H2: 1,780 g (±5 %)
+                            HPS® 7000 PRO-H1: ca. 1,580 g (±5 %)
+                            HPS® 7000 PRO-H2: 1,880 g (±5 %)</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="4e8e1b903a97496eab7e2c99cf6c7581" innerId="6F60AC9A0FB9486BAFB35E4B8029DAFB">
+                    <Entry aras:id="74d1ea1be97e488782c2903f41506219">
+                        <Legend aras:id="52B95EBFD9204541854654CDABC5BEBB">Material, outer shell </Legend>
+                    </Entry>
+                    <Entry aras:id="31f45832505f4b0fa032b2cac7ed437f">
+                        <Legend aras:id="A731B18ACDAA4ED183587AEA9DEAD136">Composite consisting of fibreglass-reinforced
+                            plastic (PA-GF) and additionally reinforced with aramid webbing, hightemperature-resistant
+                        </Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="08f561326ef74e85910bfdf3365618f6" innerId="2525FAFC56734EFAB99C6B801150F487">
+                    <Entry aras:id="3bd15ef488b2474a9892260d6ed127e7">
+                        <Legend aras:id="3BB4FF9EFB8D48D5821AB5B26820F721">Colours</Legend>
+                    </Entry>
+                    <Entry aras:id="49213f5d36a343f1bba875feb47bf8f6">
+                        <Legend aras:id="4AD34229753945358FB2B272C49857DB">black (RAL 9005) bright orange (RAL 2005)
+                            bright yellow (RAL 1026) chrome luminescent (similar to RAL 110) luminescent yellow (similar
+                            to RAL 1016) red (RAL 3000) signal blue (RAL 5005) white aluminium (RAL 9006) white (RAL
+                            9010) yellow green (RAL 6018) zinc yellow (RAL 1018)</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="8ef1b78f8aa148ef936839561b4a3771" innerId="5F5EBB2410F743B981C3BC8FC6FA5671">
+                    <Entry aras:id="f2616498dd7a4a85b86603848cca47a5">
+                        <Legend aras:id="DE8E965F6F42481F8F3A3211FEAB1D7C">Mask connection (only for PRO version)
+                        </Legend>
+                    </Entry>
+                    <Entry aras:id="8e29e1be3028476b836b11220d7ea853">
+                        <Legend aras:id="75555362BC194DF58598E7E344078E1A">Option to attach any adapter mask, e.g.
+                            Dräger FPS® 7000 with s- or q-fix adapter, adjustable to four positions</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="6b9eebf6f4c24590881880d05082967f" innerId="AA44895E4ED44B5FAFD0CF0068F64513">
+                    <Entry aras:id="b29f04007431486bada60ecd1c6c801b">
+                        <Legend aras:id="65832B3E0FBE4EA28BC6EF708D058543">Interior fitting</Legend>
+                    </Entry>
+                    <Entry aras:id="ba8fac8464434714b47d2eccec4b50a0">
+                        <Legend aras:id="85C84A315630438A8649096E1BEB1C76">Flame-resistant and washable 4-point harness
+                            made of Nomex®, sweat band of eco-leather, head support ring with patented wheeladjustment
+                            system, integrated hairnet or multilayer comfort pad, fixing lever for facial protection
+                            visor and communication adapter</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="20780ee243934e758b0c294d23ad450a" innerId="3B541D15ED4949F3A351FE7E8E272178">
+                    <Entry aras:id="7d67a91be9a64edbb18b29d97fa71c4c">
+                        <Legend aras:id="AE1CC9B8AC3242588C21B497FE4C1363">Facial protection visor</Legend>
+                    </Entry>
+                    <Entry aras:id="52fdb39a91f24ff5b0040806509ee4fe">
+                        <Legend aras:id="8D104077E51F4682869795AC7FC80204">Variant clear or clear with anti-scratch
+                            coating, gold-coated or anti-fog coating 2.5 mm polyether sulphone, approved acc. to EN
+                            14458:2018 with the options R1/R2 -40 °C/+120 °C or -30 °C/+50°C, BT, K, N, E1/E3, UV 2–4,
+                            IR 4–4 optical class 1 depending on version</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="6053236db3b54cc295eec610a94e01cf" innerId="44B9F4215B8B4A83B2CEAC79676FBB73">
+                    <Entry aras:id="96152fb225244d00a23e690a3874c63c">
+                        <Legend aras:id="8186348407EC43EF8307531541C2D04F">Eye protection visor (only for PRO version)
+                        </Legend>
+                    </Entry>
+                    <Entry aras:id="b99e0ee04fb84a828aea759d388bc858">
+                        <Legend aras:id="7879FF95207549098C6B44C5BFACEF1E">Variant clear or clear with anti-scratch
+                            coating, 2.5 mm polyether sulphone with softpad edge protection, approved acc. to EN
+                            14458:2018 with the options -30 °C/+50 °C, BT, K, E1/E3, optical class 1 depending on
+                            version, adjustable to two positions Variant tinted: 2,5 polycarbonate with softpad edge
+                            protection, grey tinted with 60 % absorption, approved acc. to EN 166:2001, ultraviolet
+                            filter 2C-2, sun glare filter 5-2, optical class 1, strength class BT (120 m/s), adjustable
+                            to two positions</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="c5daae17786d4f7aba833fab131f23ce" innerId="1B15931EE62C4796B62C34099E570736">
+                    <Entry aras:id="6140e186055142fa93778397298a121c">
+                        <Legend aras:id="81A0E49F4E2148878C736CCA924F2AB8">Approvals, helmet</Legend>
+                    </Entry>
+                    <Entry aras:id="a357f2a7297143edb7b42cd86df39854">
+                        <Legend aras:id="30017ADC02BE43E4865172B3750CFCFF">EN 443:2008 standard for firefighting helmets
+                            (Typ B 3b, C, E2, E3, -40 °C), DIN 58610:2014 standard for a mask-helmet combination, EN
+                            16471:2014 firefighting helmets for wildland firefighting EN 16473:2014 firefighting helmets
+                            for technical rescue MED 2014/90/EU standard for firefighting helmets onboard ships SOLAS
+                            II-2/ 10.10; IMO Res. MSC.327(90): International standard for firefighting helmets onboard
+                            ships GOST Russian standard for firefighting helmets CA 32.878 Brazilian standard for
+                            firefighting helmets GA44-2015 Chinese standard for firefighting helmets (EU) 2016/425
+                            personal protection equipment regulation</Legend>
+                    </Entry>
+                </Row>
+            </Table>
+        </TechnicalDataElement>
+        <TechnicalDataElement aras:id="567e9b699ec6457e8a3d8938911869c0" innerId="33B0D6A019124FBE9425C538A4AA349C">
+            <Title aras:id="57FF063364034B7785A0F45AB785FA15">Helmet lamp HPS® 7000</Title>
+            <Table aras:id="13b9b6d262b84b48a92067bbd5696660"
+                MergeMatrix="{&quot;f2919861de6245cab5f4f1aedd1851eb&quot;:[&quot;0&quot;,&quot;1&quot;],&quot;dd5bc87d018b423782e91952bde6b324&quot;:[&quot;100&quot;,&quot;101&quot;],&quot;ad6b178f8a6d4c81a951d3259adc19ed&quot;:[&quot;200&quot;,&quot;201&quot;],&quot;3cab622e80aa4f5791fa664432c08180&quot;:[&quot;300&quot;,&quot;301&quot;],&quot;83439a2eba1f4adaa400ac821c8f1c52&quot;:[&quot;400&quot;,&quot;401&quot;],&quot;35d809c3e34b48d7a24d536a73da2abf&quot;:[&quot;500&quot;,&quot;501&quot;],&quot;04fbfde09aa84bb2a6ec409dcdb64bfc&quot;:[&quot;600&quot;,&quot;601&quot;],&quot;3c615d78e73b4340a3d1af800bbae681&quot;:[&quot;700&quot;,&quot;701&quot;],&quot;length&quot;:8,&quot;count&quot;:2,&quot;array&quot;:[&quot;f2919861de6245cab5f4f1aedd1851eb&quot;,&quot;dd5bc87d018b423782e91952bde6b324&quot;,&quot;ad6b178f8a6d4c81a951d3259adc19ed&quot;,&quot;3cab622e80aa4f5791fa664432c08180&quot;,&quot;83439a2eba1f4adaa400ac821c8f1c52&quot;,&quot;35d809c3e34b48d7a24d536a73da2abf&quot;,&quot;04fbfde09aa84bb2a6ec409dcdb64bfc&quot;,&quot;3c615d78e73b4340a3d1af800bbae681&quot;]}"
+                ColWidth="50|50">
+                <Row aras:id="f2919861de6245cab5f4f1aedd1851eb" innerId="2A10B1944BDB4C9EAA15B4596DB7CD8F">
+                    <Entry aras:id="e1013a8a606042378d54e124b8b48a84">
+                        <Legend aras:id="1463847C43C84ABA8C7153CBC422D5AA">Material</Legend>
+                    </Entry>
+                    <Entry aras:id="fe42e2a3557d4a0dbadc1c602f4136ae">
+                        <Legend aras:id="5A95E7A8793749198294272633D8BDC7">Fibreglass-reinforced plastic (PA-GF),
+                            high-temperature-resistant</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="dd5bc87d018b423782e91952bde6b324" innerId="236BAEB0E0B34782A0F9DC543E1BB8E0">
+                    <Entry aras:id="0ec6161acde54e619abdad1b7bf3e29e">
+                        <Legend aras:id="8295AD7073D54A428A46157B52C3DC09">Total dimension</Legend>
+                    </Entry>
+                    <Entry aras:id="8cd7457bd2f64bc5a4a40ab5e09cc60a">
+                        <Legend aras:id="6A3E8CE725454C038F1B2372D7878BE8">Approx. 55 mm wide x 43 mm high x 105 mm long
+                        </Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="ad6b178f8a6d4c81a951d3259adc19ed" innerId="60266A6EDC07477390D7B1432450D6BD">
+                    <Entry aras:id="bdc57ea0b80743f4b16f5aa9fb16a98a">
+                        <Legend aras:id="9C61E507B7D44CF28DD825512C7E8019">Weight</Legend>
+                    </Entry>
+                    <Entry aras:id="cee73f4bf8f44c7c984dca120e6a6a3d">
+                        <Legend aras:id="E7E1F31BBE694A6685B365C2C5329F66">With batteries: approx. 125 g, without
+                            batteries: approx. 80 g</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="3cab622e80aa4f5791fa664432c08180" innerId="3B98D9F959E54B6F9A998FCB4B68C732">
+                    <Entry aras:id="6195006ab76a4a23ba2486702d8e9705">
+                        <Legend aras:id="9D409C55EBAC4DF88D4C1EC94EB48BE7">Light technology</Legend>
+                    </Entry>
+                    <Entry aras:id="0df1315875e443de9751f7589bc5a7a0">
+                        <Legend aras:id="34836AACDACB44878F10860A20E2574C">Power LED lighting level 1: approx. 43 lm
+                            lighting level 2: approx. 25 lm lighting level 3: "flashing light" with changing performance
+                            of approx. 43 lm or 0 lm</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="83439a2eba1f4adaa400ac821c8f1c52" innerId="5106D7D244F54F09B0C7E5C1F16DCE85">
+                    <Entry aras:id="e2c48ae629e243e0adfb190e9b89c6dd">
+                        <Legend aras:id="9D7FCF4BA0A6461B818F0392F652C2B2">Power supply</Legend>
+                    </Entry>
+                    <Entry aras:id="499ac64b06664b20b5187602cfeae4e8">
+                        <Legend aras:id="4E6E8DF6B15A40FA8D951A72C964FFEB">2 AA/LR6/MN1500 alkaline batteries,
+                            intelligent batterymanagement system</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="35d809c3e34b48d7a24d536a73da2abf" innerId="C30C38844C704FBEBB78E5A6AB6E6EE2">
+                    <Entry aras:id="59a28f3d6bee47388abb064f30575597">
+                        <Legend aras:id="70D1D5A80FA0472D8AD7A014742E64FF">Usage time</Legend>
+                    </Entry>
+                    <Entry aras:id="35713711fc724391a0d2119bfabafaf2">
+                        <Legend aras:id="84A4A5A690114402897292836AFD885E">Lighting level 1: approx. 5 hours Lighting
+                            level 2: approx. 11 hours Lighting level 3: approx. 10 hours</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="04fbfde09aa84bb2a6ec409dcdb64bfc" innerId="5ABCD795385E400DB0D9FFAB5EEED0B2">
+                    <Entry aras:id="923d1f542c3c40b180d6f7b4f2a0f15a">
+                        <Legend aras:id="B0A1FBB8F70344918BD0140E3CA26365">Protection class</Legend>
+                    </Entry>
+                    <Entry aras:id="788b93d7c2f54604b3c774531caaca76">
+                        <Legend aras:id="B9CE02E44A1C4AE48CF5AC78494B500B">IP67</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="3c615d78e73b4340a3d1af800bbae681" innerId="C63F4D94BAD14418908853F7B6CBCD55">
+                    <Entry aras:id="ab2817d8d9f94db9b86263da9142ac78">
+                        <Legend aras:id="828D363834C3421D8EDFC6638B94567D">Approval HPS® 7000 helmet lamp</Legend>
+                    </Entry>
+                    <Entry aras:id="9af035d45dc1478b83920d5e042b9533">
+                        <Legend aras:id="8FA7D15DC2334EE5846A5A6A94803179">IECEx: Ex ib IIC T4/T3 Gb ATEX: II 2G Ex ib
+                            IIC T4/T3 Gb</Legend>
+                    </Entry>
+                </Row>
+            </Table>
+        </TechnicalDataElement>
+        <Variants aras:id="5f7cf72b5d0a4339ad6f4d13c41ed26b">
+            <Table aras:id="4ee61a9df8cb4322a7379bb74cff03e0"
+                MergeMatrix="{&quot;0c2d9d81dfdb433cbc20e776874d7a24&quot;:[&quot;0&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;],&quot;01a454c32fd04369a03508d50bc278e7&quot;:[&quot;100&quot;,&quot;101&quot;,&quot;102&quot;,&quot;103&quot;],&quot;400ab873a9c4426f9397351635c02aa6&quot;:[&quot;200&quot;,&quot;201&quot;,&quot;202&quot;,&quot;203&quot;],&quot;cef7eac57ab24c059b20546e2c0c9b3a&quot;:[&quot;300&quot;,&quot;301&quot;,&quot;302&quot;,&quot;303&quot;],&quot;cb9cd18ff902456480fc4e016d2b3353&quot;:[&quot;400&quot;,&quot;401&quot;,&quot;402&quot;,&quot;403&quot;],&quot;0f95a6a90f0b4ef6bfc691be0b2939f2&quot;:[&quot;500&quot;,&quot;501&quot;,&quot;502&quot;,&quot;503&quot;],&quot;length&quot;:6,&quot;count&quot;:4,&quot;array&quot;:[&quot;0c2d9d81dfdb433cbc20e776874d7a24&quot;,&quot;01a454c32fd04369a03508d50bc278e7&quot;,&quot;400ab873a9c4426f9397351635c02aa6&quot;,&quot;cef7eac57ab24c059b20546e2c0c9b3a&quot;,&quot;cb9cd18ff902456480fc4e016d2b3353&quot;,&quot;0f95a6a90f0b4ef6bfc691be0b2939f2&quot;]}"
+                ColWidth="25|25|25|25">
+                <Row aras:id="0c2d9d81dfdb433cbc20e776874d7a24" innerId="4C13A68ACEC341F3BD55FA0CA8A58A52">
+                    <Entry aras:id="8ce69470662a411781860728f44f1a8a">
+                        <Legend aras:id="E2F46B6D8BFB44978EBA65B037D94194">Variants</Legend>
+                    </Entry>
+                    <Entry aras:id="258116e1b0224ad6adbc1fb0a73c6e21">
+                        <Legend aras:id="6133AEEC1E54485386AAE15A53B9BD32">Dräger HPS® 7000 Basic</Legend>
+                    </Entry>
+                    <Entry aras:id="61db72e59dcb4852bdf995fa21ef6f13">
+                        <Legend aras:id="8F0331609FAA40638164674212866CFD">Dräger HPS® 7000 Standard</Legend>
+                    </Entry>
+                    <Entry aras:id="f2a23ccf451c40f787b266f75dcc0b32">
+                        <Legend aras:id="92532E39251C40098E28DC1D84F70E37">Dräger HPS® 7000 PRO</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="01a454c32fd04369a03508d50bc278e7" innerId="AFEB8F159CFA4EAEB34E18297497BA42">
+                    <Entry aras:id="f631522af7b74f26a94d6d4a1e1e9105">
+                        <Legend aras:id="BBDA7C991FE74C48834F3A59890D06C0">Integrated facial protection visor</Legend>
+                    </Entry>
+                    <Entry aras:id="4f6932713eea4509b21fdc21c89ba572">
+                        <Legend aras:id="280C22F2BF1C45598FB384F9728EBBC6">yes</Legend>
+                    </Entry>
+                    <Entry aras:id="d5718a55dd3949d3afd68b88a97637c1">
+                        <Legend aras:id="4FC07F2FBA9A4F0880D5831CA55097FD">yes</Legend>
+                    </Entry>
+                    <Entry aras:id="cc546205c0b74205bc85b4aaea71590d">
+                        <Legend aras:id="746A17C5CF1949A287896CD1519C44DE">yes</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="400ab873a9c4426f9397351635c02aa6" innerId="4E8956204F644B3CA15BD4DD1B9DEAAF">
+                    <Entry aras:id="cb801020f85949829b0b02e2817129fc">
+                        <Legend aras:id="E492A5ED00F24C4D803B40DCB8258242">Integrated eye protection visor</Legend>
+                    </Entry>
+                    <Entry aras:id="031838303cfd4751823b55c83cc593ae">
+                        <Legend aras:id="29512801D48E48708B5DF0EC8D488681">no</Legend>
+                    </Entry>
+                    <Entry aras:id="5fba39c60b8442c6a4032defaffbdab4">
+                        <Legend aras:id="6CFEDD0AB4D847198151776DB261E6B2">no</Legend>
+                    </Entry>
+                    <Entry aras:id="54acc1fd932545058bb5c6ccfd0adcd3">
+                        <Legend aras:id="0CFA1918261F42DC8579662FEF6A514E">yes</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="cef7eac57ab24c059b20546e2c0c9b3a" innerId="4396E8FD185B42C29B7DDE023DB89FDA">
+                    <Entry aras:id="1c08e0d3db2b4adbaf6a25f86840b220">
+                        <Legend aras:id="540E9ABBBD60415F8A32AE4C7E4BF337">Possibility of using helmet-mask combination
+                        </Legend>
+                    </Entry>
+                    <Entry aras:id="8f362077a36847cca2629905dfd890f4">
+                        <Legend aras:id="CCFC5DBDAABF4D858B8BEBD2D216443A">no</Legend>
+                    </Entry>
+                    <Entry aras:id="e25c9c59565844da82aea02f282ff053">
+                        <Legend aras:id="0B67F89616D943CA85BD19245F81E7AF">yes</Legend>
+                    </Entry>
+                    <Entry aras:id="0e89cdf4d40240178021e830c9e4411c">
+                        <Legend aras:id="388599E4905A4418853C1A1D1A88AE55">yes</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="cb9cd18ff902456480fc4e016d2b3353" innerId="8E64AAAE730647B8BF2217430B3334EA">
+                    <Entry aras:id="900df0f88a95476d92e91a89d46be686">
+                        <Legend aras:id="82607BE01286487A8E810C31CDDA25CC">Connection of integrated HPS® 7000 helmet
+                            lamp</Legend>
+                    </Entry>
+                    <Entry aras:id="631ae5650119445ea651192be251772d">
+                        <Legend aras:id="F92861F555AE46DF8276B06C7FCDA020">optional</Legend>
+                    </Entry>
+                    <Entry aras:id="d4007f24f438436a85221d99c50a3c52">
+                        <Legend aras:id="86C7E63FF6B34D8882057535D808FA60">optional</Legend>
+                    </Entry>
+                    <Entry aras:id="340898c705ec47319d0747612e76a3a7">
+                        <Legend aras:id="FC2F9978F8744D5D8CFD94DE7784826F">optional</Legend>
+                    </Entry>
+                </Row>
+                <Row aras:id="0f95a6a90f0b4ef6bfc691be0b2939f2" innerId="64E2F6C1E5354072994BFD3FC4D811EA">
+                    <Entry aras:id="a9dbd31b21cc4a0390ad557c90b262d6">
+                        <Legend aras:id="2856CA7CEB5748B882139CF648F2E0B1">Connection of external helmet lamp</Legend>
+                    </Entry>
+                    <Entry aras:id="dfec3856c3624c8287146c5ec210b03b">
+                        <Legend aras:id="0C68A8098DE646D6860CB26376B8EEE4">no</Legend>
+                    </Entry>
+                    <Entry aras:id="2e6a136af4f140c8bf12cf18976c9383">
+                        <Legend aras:id="B544E562B361499584FF8B7DAC3C7297">optional</Legend>
+                    </Entry>
+                    <Entry aras:id="84f3ee2f66824996ad523d08f277b7b5">
+                        <Legend aras:id="B91B894F9127477D80BE4D45C00E8139">optional</Legend>
+                    </Entry>
+                </Row>
+            </Table>
+        </Variants>
+    </TechnicalData>
+    <OrderingInformations aras:id="737708d5f276481ab48c04383ae3005e">
+        <Title aras:id="8EB9462F35A2472E8BB04A630FB38931">Ordering Information</Title>
+        <Table aras:id="b653666cdaa74205961dcc823332eead"
+            MergeMatrix="{&quot;573e204e6a3b41a2a688b51d36a5ffd2&quot;:[&quot;0&quot;,&quot;1&quot;,&quot;2&quot;],&quot;048fde61ef0a48e893c6a769e357b568&quot;:[&quot;100&quot;,&quot;101&quot;,&quot;102&quot;],&quot;da2ad2e6672e43a4b5e66903075337b3&quot;:[&quot;200&quot;,&quot;201&quot;,&quot;202&quot;],&quot;f98cfe2648fc456e88ecf14ae06e9f6f&quot;:[&quot;300&quot;,&quot;301&quot;,&quot;302&quot;],&quot;b4c42335a032495aa35ee7f687279d52&quot;:[&quot;400&quot;,&quot;401&quot;,&quot;402&quot;],&quot;69a58eb682f84d35905e36796322fe1b&quot;:[&quot;500&quot;,&quot;501&quot;,&quot;502&quot;],&quot;b4c15e51e0ea44a9aa34eeed27ff5c60&quot;:[&quot;600&quot;,&quot;601&quot;,&quot;602&quot;],&quot;9fce0c1f16114ba98ae733b6aea5bc38&quot;:[&quot;700&quot;,&quot;701&quot;,&quot;702&quot;],&quot;07c14fb730f64326aea7e0a6a32cfbbe&quot;:[&quot;800&quot;,&quot;801&quot;,&quot;802&quot;],&quot;6a8713b7e68b4fb3b4f97781263cc973&quot;:[&quot;900&quot;,&quot;901&quot;,&quot;902&quot;],&quot;24fbcb18ec7e4494894f639a1841bf4c&quot;:[&quot;1000&quot;,&quot;1001&quot;,&quot;1002&quot;],&quot;47e9453660984962a77c79dafca028e5&quot;:[&quot;1100&quot;,&quot;1101&quot;,&quot;1102&quot;],&quot;ca74b98834b0430b9221bcb79b91f754&quot;:[&quot;1200&quot;,&quot;1201&quot;,&quot;1202&quot;],&quot;2d659853d8084e77a3cef0e73beea71a&quot;:[&quot;1300&quot;,&quot;1301&quot;,&quot;1302&quot;],&quot;2cd5ae54a63a403daef841b7e2324d28&quot;:[&quot;1400&quot;,&quot;1401&quot;,&quot;1402&quot;],&quot;cc9f5886a4224103a4c7c7668a431d32&quot;:[&quot;1500&quot;,&quot;1501&quot;,&quot;1502&quot;],&quot;0d45667961dc4ce78119ac3a3e23bcc8&quot;:[&quot;1600&quot;,&quot;1601&quot;,&quot;1602&quot;],&quot;length&quot;:17,&quot;count&quot;:3,&quot;array&quot;:[&quot;573e204e6a3b41a2a688b51d36a5ffd2&quot;,&quot;048fde61ef0a48e893c6a769e357b568&quot;,&quot;da2ad2e6672e43a4b5e66903075337b3&quot;,&quot;f98cfe2648fc456e88ecf14ae06e9f6f&quot;,&quot;b4c42335a032495aa35ee7f687279d52&quot;,&quot;69a58eb682f84d35905e36796322fe1b&quot;,&quot;b4c15e51e0ea44a9aa34eeed27ff5c60&quot;,&quot;9fce0c1f16114ba98ae733b6aea5bc38&quot;,&quot;07c14fb730f64326aea7e0a6a32cfbbe&quot;,&quot;6a8713b7e68b4fb3b4f97781263cc973&quot;,&quot;24fbcb18ec7e4494894f639a1841bf4c&quot;,&quot;47e9453660984962a77c79dafca028e5&quot;,&quot;ca74b98834b0430b9221bcb79b91f754&quot;,&quot;2d659853d8084e77a3cef0e73beea71a&quot;,&quot;2cd5ae54a63a403daef841b7e2324d28&quot;,&quot;cc9f5886a4224103a4c7c7668a431d32&quot;,&quot;0d45667961dc4ce78119ac3a3e23bcc8&quot;]}"
+            ColWidth="33|33|34">
+            <Row aras:id="573e204e6a3b41a2a688b51d36a5ffd2">
+                <Entry aras:id="51c76067d9b24c8c86eb85102037e5e4">
+                    <Legend aras:id="530FB160C8474DAD87FBAAE278E52BEA">Dräger HPS® 7000 Basic luminescent</Legend>
+                </Entry>
+                <Entry aras:id="a900899f78f24c26832ac46d7362521e">
+                    <Legend aras:id="20A5B1AFB343490C8944E434B0F5E05F">R79170</Legend>
+                </Entry>
+                <Entry aras:id="6970bab4f2ed4f6a9750f5bf63b20b88">
+                    <Legend aras:id="3861D180B66D48628E671CC7D62DE6AB">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="048fde61ef0a48e893c6a769e357b568">
+                <Entry aras:id="8d8c346d66034e5aa8967aaac6f4b2c2">
+                    <Legend aras:id="F1D5B2EAB0744CC884C0A4B49FC70668">Dräger HPS® 7000 Basic red</Legend>
+                </Entry>
+                <Entry aras:id="ac1d47e2d3864ef199ab53847ce6eda9">
+                    <Legend aras:id="91482BA01BF845648C054D2F6E2065C5">R79172</Legend>
+                </Entry>
+                <Entry aras:id="7c329ea80baf40479c3f2b60cbbcad45">
+                    <Legend aras:id="BB2531926F21432D8AA6D0DD6EC996BE">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="da2ad2e6672e43a4b5e66903075337b3">
+                <Entry aras:id="1f85f1ed21bb4fe6a52bec495cc48f1f">
+                    <Legend aras:id="97F33E698AC341048A7B7451ADB4F283">Dräger HPS® 7000 Basic bright yellow</Legend>
+                </Entry>
+                <Entry aras:id="87e7ba6dc8e34e8c9ea5ca3a70feaddd">
+                    <Legend aras:id="2A5D63D3BD254E048CAA5BBD6D64DEA1">R79173</Legend>
+                </Entry>
+                <Entry aras:id="c9a8c46e679f4c51ab43c71ec1c0e40c">
+                    <Legend aras:id="5B3DAFD92114489C884791EBBC919ADD">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="f98cfe2648fc456e88ecf14ae06e9f6f">
+                <Entry aras:id="72c00a518cf54edbb1d28ca04d4f0546">
+                    <Legend aras:id="BA5E4D27A04A4834849B13F94FF18A68">Dräger HPS® 7000 Basic black</Legend>
+                </Entry>
+                <Entry aras:id="da3d1c9ca74445528c4d84789e1f78c5">
+                    <Legend aras:id="3D7BE2B63B064C8B884EFFC927F52603">R79177</Legend>
+                </Entry>
+                <Entry aras:id="f008968f5e9c4ccbbe6390da5291df39">
+                    <Legend aras:id="DD749C59B4F8450F8258859616C69F82">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="b4c42335a032495aa35ee7f687279d52">
+                <Entry aras:id="d97859b85788434984fe636d633eba30">
+                    <Legend aras:id="17C852C439F0420B85D4D8B21309A1E3">Dräger HPS® 7000 Standard luminescent</Legend>
+                </Entry>
+                <Entry aras:id="aed941452d604bf6aeb7405ec23ef7f1">
+                    <Legend aras:id="26EB4D92102C49588E459B023A3F5C16">R79364</Legend>
+                </Entry>
+                <Entry aras:id="6ac07d344d96409aa6a103ba218bd86a">
+                    <Legend aras:id="BB2A334B7D214E428C771165412EB27A">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="69a58eb682f84d35905e36796322fe1b">
+                <Entry aras:id="613bc442d93044c7aaa04d89fcb8b5b9">
+                    <Legend aras:id="F13DCC69730B4DA98B13236E702CAA43">Dräger HPS® 7000 Standard white </Legend>
+                </Entry>
+                <Entry aras:id="4c0f2db927e348069d47eec051150e0b">
+                    <Legend aras:id="70273438E02D4834822D09E56E71F36F">R79366</Legend>
+                </Entry>
+                <Entry aras:id="84f4e500499647d2a58c1ffd6249cb56">
+                    <Legend aras:id="467F70E7906E49B985ADFA0562D3192C">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="b4c15e51e0ea44a9aa34eeed27ff5c60">
+                <Entry aras:id="e148340602c742b099f348ae19636c40">
+                    <Legend aras:id="8CAF6173BEFB4A618DBDB0BB0D610060">Dräger HPS® 7000 Standard red </Legend>
+                </Entry>
+                <Entry aras:id="8807e32b0a074f85ad95896cd0b12781">
+                    <Legend aras:id="6C2185FF1065465F8328BC47A2FDADB3">R79368</Legend>
+                </Entry>
+                <Entry aras:id="4f8765b66cd54982bfc1cb42d7347617">
+                    <Legend aras:id="24B156C87765436D8062DF4E03849C8A">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="9fce0c1f16114ba98ae733b6aea5bc38">
+                <Entry aras:id="e59db8a0a8a14e278afde9911da307c9">
+                    <Legend aras:id="AACA4635655C45BA88ABD36373459F09">Dräger HPS® 7000 Standard bright yellow</Legend>
+                </Entry>
+                <Entry aras:id="421d91681ccd48428faf24f572b6eb36">
+                    <Legend aras:id="FF22CC3A04884A1B85B069B7123178F2">R79353</Legend>
+                </Entry>
+                <Entry aras:id="8835008a879f40dbae87c80d0c53b0dc">
+                    <Legend aras:id="4F4A7F77C76940B88DE80CA60F2314EC">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="07c14fb730f64326aea7e0a6a32cfbbe">
+                <Entry aras:id="6406412cea9e40d685417bfbefb0016f">
+                    <Legend aras:id="3CB56660B79047E28AA5AA350171F27F">Dräger HPS® 7000 PRO red</Legend>
+                </Entry>
+                <Entry aras:id="05149786f59f4053be077d492566371f">
+                    <Legend aras:id="3EF364048388405984ABDC599C11F4FE">R79182</Legend>
+                </Entry>
+                <Entry aras:id="35d35a48839047f48393512b69a945ba">
+                    <Legend aras:id="856F70B467A049838576D1A5AA5925CB">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="6a8713b7e68b4fb3b4f97781263cc973">
+                <Entry aras:id="0d7b866cfa4846788296152f555875f8">
+                    <Legend aras:id="3574843995274CB481BB60AD08F1D181">Dräger HPS® 7000 PRO bright yellow</Legend>
+                </Entry>
+                <Entry aras:id="e0fb399786844c2eb907853b513ee8af">
+                    <Legend aras:id="9DB22960D4164596869EB74034EE6169">R79183</Legend>
+                </Entry>
+                <Entry aras:id="9b35622a7c814f0bbcd280e3f75eee3c">
+                    <Legend aras:id="107408890724473B8A6FC62A4971C722">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="24fbcb18ec7e4494894f639a1841bf4c">
+                <Entry aras:id="7c6256f2cd0b4992bc8392d4f8dd47c3">
+                    <Legend aras:id="7D470E07A3D648EF8C0870FE026061F5">Dräger HPS® 7000 PRO luminescent</Legend>
+                </Entry>
+                <Entry aras:id="e67e4a34801b4581b9c84df6459228a4">
+                    <Legend aras:id="589F74712FB940CC803E75A8A6DEB6D2">R79250</Legend>
+                </Entry>
+                <Entry aras:id="07d80704602647e9972e966574580c4b">
+                    <Legend aras:id="40B6F8832D9D45498E057C30DE2C303C">R79420</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="47e9453660984962a77c79dafca028e5">
+                <Entry aras:id="cfc4950f4e294d57b2565060bbdc715f">
+                    <Legend aras:id="B79A133738964FD28379CFEE035D836A">Dräger HPS® 7000 PRO white</Legend>
+                </Entry>
+                <Entry aras:id="1e3df8e7abfc49cfbaebb43f7e3341ea">
+                    <Legend aras:id="B302F385A292498286365227D7D65B40">R79251</Legend>
+                </Entry>
+                <Entry aras:id="b50b09c521104b2fb450cbd44b1fb0ae">
+                    <Legend aras:id="B7B0C8A4800C467D860E4B6DB6EFBF09">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="ca74b98834b0430b9221bcb79b91f754">
+                <Entry aras:id="193a96236e3f48c9a486a001bac58c05">
+                    <Legend aras:id="F69B2886CA094EAF88123A82E4EF60C5">Dräger HPS® 7000 PRO red</Legend>
+                </Entry>
+                <Entry aras:id="f51af4c9b0df4ee6954c0e61cfa3b91b">
+                    <Legend aras:id="898FD32A1B97417D8A45247DDD648A47">R79252</Legend>
+                </Entry>
+                <Entry aras:id="a575055d7a7a4fcdaf91b93a5de13e35">
+                    <Legend aras:id="E4D646F42E1E44F48FF9050259B07FBD">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="2d659853d8084e77a3cef0e73beea71a">
+                <Entry aras:id="3c7dd47aeecf4990aa8619ca3f17a021">
+                    <Legend aras:id="DD55C47360C742D288018D3311FC67A7">Dräger HPS® 7000 PRO bright yellow</Legend>
+                </Entry>
+                <Entry aras:id="93ff106ecb724e0baa8115fe36afdd2f">
+                    <Legend aras:id="10C041544B134579888F36F3EBB3B40F">R79253</Legend>
+                </Entry>
+                <Entry aras:id="2c181cc01f9e4a19ba07e4b0d4287bce">
+                    <Legend aras:id="6FF11F5C1B794CE989592A24E752E533">R79423</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="2cd5ae54a63a403daef841b7e2324d28">
+                <Entry aras:id="020ff1edd04c4b449df601e913fe9536">
+                    <Legend aras:id="78A1AF74E2AE41BE84E7B9DD628BDE9F">Dräger HPS® 7000 PRO black</Legend>
+                </Entry>
+                <Entry aras:id="070d6850e6784b8daedd5b8dbfec43b5">
+                    <Legend aras:id="0C68C6A4586343B48A8D6745AC896D90">R79257</Legend>
+                </Entry>
+                <Entry aras:id="a9f03ab5f5224315a8c50a975bfa7f98">
+                    <Legend aras:id="44B4457CC2A04B7D8E9EE96B3CEE5280">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="cc9f5886a4224103a4c7c7668a431d32">
+                <Entry aras:id="3bbd92dd52e04933a0aae9b14728faf1">
+                    <Legend aras:id="D527261DD8C544C289344F1EDEE35A09">Dräger HPS® 7000 PRO chrome</Legend>
+                </Entry>
+                <Entry aras:id="a8d8f9374ffa4d869bb2a0d7b3917b19">
+                    <Legend aras:id="786E8995A3A147CF81F0EE5FA2274A37">R79259</Legend>
+                </Entry>
+                <Entry aras:id="90f1f1fb27af464b85ef379e842ec155">
+                    <Legend aras:id="4DE59786CE964C768E180EEFB6D91B00">R79572</Legend>
+                </Entry>
+            </Row>
+            <Row aras:id="0d45667961dc4ce78119ac3a3e23bcc8">
+                <Entry aras:id="40bbb77a6a604cb782d5c080fec37ce6">
+                    <Legend aras:id="0E1D8467D615457183EF89CD69A8CF8D">Further versions of the Dräger HPS® 7000 are
+                        available on request, via configurator system number</Legend>
+                </Entry>
+                <Entry aras:id="a3797e82566040ccbf55e7b089c1a303">
+                    <Legend aras:id="CC64EAF01BDC47ED886DC013C8ABB2A4">R79571</Legend>
+                </Entry>
+                <Entry aras:id="ea61bdb1c13b4c9fa544558cdc364d76">
+                    <Legend aras:id="38DAB6E81DFF4F60840A7E0904506D24">R79572</Legend>
+                </Entry>
+            </Row>
+        </Table>
+    </OrderingInformations>
+    <Notes aras:id="358fc394c61a45f5a5ad54594834cffd">
+        <Title aras:id="91C5AA792295458581546FBA6A34044B">Notes</Title>
+    </Notes>
+    <Footer aras:id="3b8631cf55cc412396abd5178be07092">
+        <FooterElement aras:id="2304e0760be5461c87361be525ab935d">
+            <Title aras:id="6D4FDBE5285646C48AB435DE4314FB9F">CORPORATE HEADQUARTERS</Title>
+            <Legend aras:id="89C346F995244B19893F4D303B9D2175">Drägerwerk AG &amp; Co. KGaA</Legend>
+            <Legend aras:id="89B7A1389430455287A2CEC79D69603E">Moislinger Allee 53–55</Legend>
+            <Legend aras:id="D92102735A29459780664D429873B4B7">23558 Lübeck, Germany</Legend>
+            <Legend aras:id="367FC0417376459E8A56E765D682CF8E">www.draeger.com</Legend>
+        </FooterElement>
+        <FooterElement aras:id="e4df1c992b6c4dee851e7c8af1c5b271">
+            <Title aras:id="46482F23766348508E2CAB3DBD8D088D">REGION DACH</Title>
+            <Legend aras:id="0CADE0A6138B47E4853B7913F2387247">Dräger Safety AG &amp; Co. KGaA</Legend>
+            <Legend aras:id="A4AD5380D44A4A3C80CB436B00CC2CAF">Revalstraße 1</Legend>
+            <Legend aras:id="5B742FA883A646938DE876D5B005DAFA">23560 Lübeck, Germany</Legend>
+            <Legend aras:id="86B4D71756464DC08ECA5DA5496CFF4F">Tel +49 451 882 0</Legend>
+            <Legend aras:id="75EE1FD6975C46F084E536E80529EB77">Fax +49 451 882 2080</Legend>
+            <Legend aras:id="86271BBECCCA4ACD862F37934186CE94">info@draeger.com</Legend>
+        </FooterElement>
+        <FooterElement aras:id="2f8b3a20b1fc412891ecb9325867d68f">
+            <Title aras:id="67B9899AA7A3407584F74C39D7487F24">REGION EUROPE</Title>
+            <Legend aras:id="AB96AE3B59C645598131377E26D14A6B">Dräger Safety AG &amp; Co. KGaA</Legend>
+            <Legend aras:id="96698E682347426E82E587008A77CB5A">Revalstraße 1</Legend>
+            <Legend aras:id="2465240DC6A849468D408DFD88B28B4F">23560 Lübeck, Germany</Legend>
+            <Legend aras:id="DDF7FB10301D420085066ECEB28CED20">Tel +49 451 882 0</Legend>
+            <Legend aras:id="71CFE5D40CB147C08D527102DDE4B262">Fax +49 451 882 2080</Legend>
+            <Legend aras:id="CF0340DF21AC434C81EC24C61A4107E7">info@draeger.com</Legend>
+        </FooterElement>
+        <FooterElement aras:id="1fe9990448044aaeae1ccca78c98e2d0">
+            <Title aras:id="A77FD9A390FA4B0D8C05140032669ABB">REGION MIDDLE EAST, AFRICA</Title>
+            <Legend aras:id="F5197F8823664A88825AA3CC937F2E41">Dräger Safety AG &amp; Co. KGaA Branch Office</Legend>
+            <Legend aras:id="9A45FCFC26884EC489E45852A4CD662D">P.O. Box 505108</Legend>
+            <Legend aras:id="15339E22596C46698270593DED6823B5">Dubai, United Arab Emirates</Legend>
+            <Legend aras:id="3BC1C595E9304582822D52CF5B26AF2D">Tel +971 4 4294 600</Legend>
+            <Legend aras:id="C2DE2B2F506940148566C1CD385C41A9">Fax +971 4 4294 699</Legend>
+            <Legend aras:id="2C3092A525D54051870791D2ECF4D383">contactuae@draeger.com</Legend>
+        </FooterElement>
+        <FooterElement aras:id="708bd10594164ab78190347d40d02499">
+            <Title aras:id="5FD7AA1A2F624016814EABE9E22C2C08">REGION ASIA PACIFIC</Title>
+            <Legend aras:id="048A65250CFD479185B992E74E3A9716">Draeger Singapore Pte. Ltd</Legend>
+            <Legend aras:id="216AC614000D4914837F3337A4CD56AF">61 Science Park Road
+                The Galen #04-01</Legend>
+            <Legend aras:id="F0F5C02E16FA4A148C6DEE4C00BFBF7B">Singapore 117525</Legend>
+            <Legend aras:id="C2495F3684634EBB80BA1B44FBFBC21E">Tel: +65 6872 9288</Legend>
+            <Legend aras:id="3F4A66C433474D0282BF67896011FA40">Fax: +65 6259 0398</Legend>
+            <Legend aras:id="8A0D56DB087F47498F8F2E36BF2F1CA7">asia.pacific@draeger.com</Legend>
+        </FooterElement>
+        <FooterElement aras:id="6364ee541d714831bd8b16ff80b7b792">
+            <Title aras:id="71814F6555A442C98EE045E72443AC85">REGION CENTRAL AND SOUTH AMERICA</Title>
+            <Legend aras:id="0812A06C8ED64570820C29548B3FA30E">Dräger Indústria e Comércio Ltda.</Legend>
+            <Legend aras:id="83236C276F924D6B87A70E03E1353392">Al. Pucurui - 51 - Tamboré</Legend>
+            <Legend aras:id="C4AFE00B2ADE48C48D24716A83B046BD">06406-100 - Barueri - SP</Legend>
+            <Legend aras:id="5F979877BDBF44988A4805F7302E3E12">Tel. +55 (11) 4689-4900</Legend>
+            <Legend aras:id="98FB5CA271AF4F7287B1B17D6E35DEB1">relacionamento@draeger.com</Legend>
+        </FooterElement>
+    </Footer>
+</TechnicalDocumentation>
