@@ -6,8 +6,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 const xml2json_1 = __importDefault(require("xml2json"));
 const xml2js_1 = __importDefault(require("xml2js"));
+const composer_1 = require("./composer");
 function mapper(data, filename) {
     let result = {};
+    let CMP = new composer_1.Composer();
     Object.entries(data).forEach(([key, value]) => {
         switch (key) {
             case 'TechnicalDocumentation': {
@@ -15,16 +17,19 @@ function mapper(data, filename) {
                 Object.entries(value).forEach(([key, value]) => {
                     switch (key) {
                         case 'Header': {
-                            result['root'] = composeHeader(value);
+                            result['root']['base'] = CMP.composeHeader(value);
                             break;
                         }
                         case 'MarketingInformations': {
+                            result['root']['grouped_title-image-legend'] = CMP.composeMarketingInformations(value);
                             break;
                         }
                         case 'Benefits': {
+                            result['root']['grouped_benefit'] = CMP.composeBenefits(value);
                             break;
                         }
                         case 'Awards': {
+                            result['root'][''];
                             break;
                         }
                         case 'SystemComponents': {
@@ -66,23 +71,6 @@ function mapper(data, filename) {
         console.dir(result, { depth: null, colors: true });
     });
     return;
-    console.log(data);
-    let cnt = 0;
-    for (let tag in data) {
-        cnt += 1;
-        console.log(tag);
-        console.dir(data[tag], { depth: null, colors: true });
-        console.log(cnt);
-        switch (tag) {
-            case 'TechnicalDocumentation': {
-                break;
-            }
-            default: {
-                console.log(`%cERROR: Unexpected tag: "${tag}"`);
-                return;
-            }
-        }
-    }
     save(data, filename);
 }
 function load(file) {
@@ -90,7 +78,8 @@ function load(file) {
     fs_1.default.readFile(file, (err, data) => {
         const json = xml2json_1.default.toJson(data, { object: true });
         console.dir(json, { depth: null, colors: true });
-        mapper(json, file);
+        save(data, file);
+        //mapper(json, file);
     });
 }
 function save(json, filename) {
@@ -106,5 +95,5 @@ function save(json, filename) {
         }
     });
 }
-//load('test.xml')
-load('HPS7000.xml');
+load('test.xml');
+//load('HPS7000.xml')

@@ -40,7 +40,7 @@ class Composer {
     }
 
     composeMarketingInformations(data : any) {
-        let result : Array<any> = []
+        let result : Array<any> = [];
         //MarketingInformations
         Object.entries(data as object).forEach( ([key, value]) => {
             if(key != 'Title') {
@@ -84,7 +84,7 @@ class Composer {
     }
 
     composeBenefits(data : any) {
-        let result : Array<any> = []
+        let result : Array<any> = [];
         //Benefits
         Object.entries(data as object).forEach( ([key, value]) => {
             let entry : any = {}
@@ -109,10 +109,72 @@ class Composer {
                         }
                     }
                 });
+                result.push(entry);
             }
-            result.push(entry);
         });
+        return result;
+    }
 
+    composeProducts(data : any) {
+        let result : Array<any> = [];
+        //SystemComponents or Accessories or RelatedProducts
+        Object.entries(data as object).forEach( ([key, value]) => {
+            let entry : any = {}
+            if(key == 'SystemComponent' || key == 'Accessory' || key == 'RelatedProduct') {
+                Object.entries(value as object).forEach( ([key, value]) => {
+                    switch(key) {
+                        case 'Title': {
+                            entry['content-headline'] = value;
+                            break;
+                        }
+                        case 'Legend': {
+                            entry['content-text'] = value;
+                            break;
+                        }
+                        case 'ProductNumber':
+                        case 'Graphic':
+                            break;
+
+                        default: {
+                            console.log(`# ERROR Unexpected tag: "${key}"\n# in: TechnicalDocumentation: 
+                                \n#\t SystemComponents or Accesories or RelatedProducts
+                                \n#\t\t SystemComponent or Accessory or RelatedProduct
+                                `);
+                            break;
+                        }
+                    }
+                });
+                result.push(entry);
+            }
+        });
+        return result;
+    }
+
+    composeTechnicalData(data : any) {
+        let result : Array<any> = [];
+        //TechnicalData
+        Object.entries(data as object).forEach( ([key, value]) => {
+            let entry : any = {}
+            if(key == 'TechnicalDataElement') {
+                Object.entries(value as object).forEach( ([key, value]) => {
+                    switch(key) {
+                        case 'Table': {
+                            entry['content-text'] = value;
+                            break;
+                        }
+
+                        default: {
+                            console.log(`# ERROR Unexpected tag: "${key}"\n# in: TechnicalDocumentation: 
+                                \n#\t SystemComponents or Accesories or RelatedProducts
+                                \n#\t\t SystemComponent or Accessory or RelatedProduct
+                                `);
+                            break;
+                        }
+                    }
+                });
+                result.push(entry);
+            }
+        });
         return result;
     }
 }
