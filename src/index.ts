@@ -23,7 +23,7 @@ function mapper(data : any, filename : string) {
                             break;
                         }
                         case 'Benefits': {
-                            result['root']['grouped_benefit'] = CMP.composeBenefts(value)
+                            result['root']['grouped_benefit'] = CMP.composeBenefits(value)
                             break;
                         }
                         case 'Awards': {
